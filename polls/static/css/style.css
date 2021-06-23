@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Staatliches&display=swap');
+
+* {
+	font-family: 'Staatliches', cursive;
+}
+
+#set-background {
+	background-color: #266D20;
+	background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+					  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+					  linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+					  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+					  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+					  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+	background-size:80px 140px;
+	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+#logo {
+	font-size: 35px;
+	color: #FFFFFF;	
+}
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FF759A;
+	text-decoration: none;
+}
+
+header, footer {
+	background-color: #25D366;
+	opacity: 0.5;
+}
+
+header {
+	border-bottom: 1px groove #FFFFFF;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+h1 {
+	position: fixed;
+	font-family: 'Staatliches', cursive;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+
+input::placeholder {
+	text-indent: 25px;
+}
+
+input {
+	line-height: 25px;
+}
+
+#formulary {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 100%);
+
+}
+
+#url-input {
+	width: 25vw;
+	height: 6vh;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+}
+
+#url-submit {
+	background: #128C7E;
+	color: #FFFFFF;
+	border-radius: 50%;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	border-top: 1px groove #FFFFFF;
+}

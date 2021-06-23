@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zopper - A WhatsApp Automation Bot</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body id="set-background">
+	<header>
+		<nav>
+			<div id="home">
+				<a href="#">
+					<p id="logo">Zopper</p>
+				</a>
+			</div>
+			<div id="another-router">
+				<a href="#">
+					<p>About the Project</p>
+				</a>
+				<a href="#">
+					<p>About Me</p>
+				</a>
+			</div>
+		</nav>
+	</header>
+	<article>
+		<h1>
+			Your WhatsApp. 
+			Better than Never.
+		</h1>
+		<form id="formulary">
+			<input type="text" name="url-input" id="url-input" placeholder="Type here your URL...">
+			<!--
+			<span id="url-submit">
+				<input type="submit" name="url-submit" value=".">
+			</span>
+			-->
+			<button type="submit" name="url-submit" id="url-submit">
+				Send
+			</button>
+		</form>
+	</article>
+	<footer>
+		<a href="https://github.com/lucaxgomex/" target="_blank">
+			Coded with love
+		</a>
+	</footer>
+</body>
+</html>
