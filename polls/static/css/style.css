@@ -33,12 +33,11 @@ a:hover {
 }
 
 header, footer {
-	background-color: #25D366;
-	opacity: 0.5;
+	background-color: #075E54;
 }
 
 header {
-	border-bottom: 1px groove #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
 }
 
 nav {
@@ -91,5 +90,5 @@ footer {
 	width: 100%;
 	text-align: center;
 	padding: 5px;
-	border-top: 1px groove #FFFFFF;
+	border-top: 1px solid #FFFFFF;
 }
