@@ -12,15 +12,18 @@
 	<header>
 		<nav>
 			<div id="home">
-				<a href="#">
-					<p id="logo">Home</p>
-				</a>
+				<span>
+					<h6 id="logo">Zopper</h6>
+				</span>
 			</div>
 			<div id="another-router">
-				<a href="#">
+				<a href="{% url 'test' %}">
+					<p>Home</p>
+				</a>
+				<a href="{% url 'test' %}">
 					<p>About the Project</p>
 				</a>
-				<a href="#">
+				<a href="{% url 'test' %}">
 					<p>About Me</p>
 				</a>
 			</div>

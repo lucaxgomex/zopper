@@ -1,0 +1,4 @@
+Hello there!
+
+I'm called Zopper. I'm a automation bot created by Lucas Gomes.
+How may I help you?
