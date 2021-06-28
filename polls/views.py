@@ -1,8 +1,10 @@
-from django.shortcuts import render
-
-# Create your views here.
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
+# Create your views here.
 def index(request):
-	#return HttpResponse("Hello World")
 	return render(request, 'polls/index.html', {})
+
+def test(request):
+	#return redirect('/sla/')
+	return render(request, 'polls/test.html', {})
