@@ -32,10 +32,6 @@ header, footer {
 	background-color: #075E54;
 }
 
-header {
-	border-bottom: 1px solid #FFFFFF;
-}
-
 nav {
 	padding: 10px;
 }
@@ -53,27 +49,11 @@ h1 {
 	color: #FFFFFF;
 }
 
-input::placeholder {
-	text-indent: 25px;
-}
-
-input {
-	line-height: 25px;
-}
-
 #formulary {
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, 100%);
-}
-
-#url-input {
-	width: 25vw;
-	height: 6vh;
-	border-radius: 20px;
-	border: none;
-	outline: none;
 }
 
 #url-submit {
@@ -89,5 +69,11 @@ footer {
 	width: 100%;
 	text-align: center;
 	padding: 5px;
-	border-top: 1px solid #FFFFFF;
+}
+
+form input {
+	width: 30vw;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
 }

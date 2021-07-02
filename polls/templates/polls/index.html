@@ -30,17 +30,21 @@
 		</nav>
 	</header>
 	<article>
-		<h1>
-			Your WhatsApp. 
-			Better than Never.
-		</h1>
-		<form id="formulary">
-			<input type="text" name="url-input" id="url-input" placeholder="Type here your URL...">
-			<!--
-			<span id="url-submit">
-				<input type="submit" name="url-submit" value=".">
-			</span>
-			-->
+		<h1>Your WhatsApp. Better than Never.</h1>
+		{% for l in list_register %}
+			<ul>
+				<li>
+					<div>
+						<span>Name</span>
+						<span>URL</span>
+					</div>
+				</li>
+			</ul>
+		{% endfor %}
+		<form id="formulary" action="" method="POST">
+			<!--<input type="text" name="url-input" id="url-input" placeholder="Type here your URL...">-->
+			{% csrf_token %}
+			{{ form }}
 			<button type="submit" name="url-submit" id="url-submit">
 				Send
 			</button>
